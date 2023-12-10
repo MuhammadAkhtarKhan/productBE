@@ -1,0 +1,17 @@
+D:\Test_AIMS\ServicesLayer\bin\Debug\net6.0\ServicesLayer.deps.json
+D:\Test_AIMS\ServicesLayer\bin\Debug\net6.0\ServicesLayer.dll
+D:\Test_AIMS\ServicesLayer\bin\Debug\net6.0\ServicesLayer.pdb
+D:\Test_AIMS\ServicesLayer\bin\Debug\net6.0\DomainLayer.dll
+D:\Test_AIMS\ServicesLayer\bin\Debug\net6.0\RepositoryLayer.dll
+D:\Test_AIMS\ServicesLayer\bin\Debug\net6.0\DomainLayer.pdb
+D:\Test_AIMS\ServicesLayer\bin\Debug\net6.0\RepositoryLayer.pdb
+D:\Test_AIMS\ServicesLayer\obj\Debug\net6.0\ServicesLayer.csproj.AssemblyReference.cache
+D:\Test_AIMS\ServicesLayer\obj\Debug\net6.0\ServicesLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Test_AIMS\ServicesLayer\obj\Debug\net6.0\ServicesLayer.AssemblyInfoInputs.cache
+D:\Test_AIMS\ServicesLayer\obj\Debug\net6.0\ServicesLayer.AssemblyInfo.cs
+D:\Test_AIMS\ServicesLayer\obj\Debug\net6.0\ServicesLayer.csproj.CoreCompileInputs.cache
+D:\Test_AIMS\ServicesLayer\obj\Debug\net6.0\ServicesLayer.csproj.CopyComplete
+D:\Test_AIMS\ServicesLayer\obj\Debug\net6.0\ServicesLayer.dll
+D:\Test_AIMS\ServicesLayer\obj\Debug\net6.0\refint\ServicesLayer.dll
+D:\Test_AIMS\ServicesLayer\obj\Debug\net6.0\ServicesLayer.pdb
+D:\Test_AIMS\ServicesLayer\obj\Debug\net6.0\ref\ServicesLayer.dll
