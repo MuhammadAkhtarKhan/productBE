@@ -5,16 +5,15 @@ namespace DomainLayer.Models.ProductModel
 {
     public class Product : BaseEntity
     {
-        [Key]
-        public int ProductId { get; set; }
+        
 
         [Required(ErrorMessage = "Product name is required")]
         [StringLength(50, ErrorMessage = "Product name cannot be longer than 50 characters")]
-        public string ProductName { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Product description is required")]
         [StringLength(100, ErrorMessage = "Product description cannot be longer than 100 characters")]
-        public string ProductDescription { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
 
         [ForeignKey(nameof(ProductCategoryId))]
         public int? ProductCategoryId { get; set; }
@@ -26,7 +25,7 @@ namespace DomainLayer.Models.ProductModel
 
         [Required(ErrorMessage = "Category name is required")]
         [StringLength(50, ErrorMessage = "Category name cannot be longer than 50 characters")]
-        public string CategoryName { get; set; } = string.Empty;
-        public string? CategoryDescription { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string? Description { get; set; }
     }
 }

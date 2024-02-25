@@ -10,8 +10,8 @@ namespace ServicesLayer.DTOs
 {
     public class ProductDTO
     {
-        public string ProductName { get; set; } = string.Empty;       
-        public string ProductDescription { get; set; } = string.Empty;       
+        public string Name { get; set; } = string.Empty;       
+        public string Description { get; set; } = string.Empty;       
         public Nullable<bool> IsActive { get; set; } = true;
         public int? ProductCategoryId { get; set; }
     }

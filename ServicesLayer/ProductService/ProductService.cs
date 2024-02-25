@@ -35,30 +35,33 @@ namespace ServicesLayer.ProductService
             return await _repository.GetByIdAsync(Id);
         }
 
-        public async Task InsertProductAsync(ProductDTO cls)
+        public async Task<Product> InsertProductAsync(ProductDTO cls)
         {
             Product product = new Product()
             {
-                ProductName = cls.ProductName,
-                ProductDescription = cls.ProductDescription,
+                Id=0,
+                Name = cls.Name,
+                Description = cls.Description,
                 ProductCategoryId = cls.ProductCategoryId,
                 CreatedDate = DateTime.Now.ToString("MM-dd-yyyy")
             };
             await _repository.InsertAsync(product);
+            return product;
         }
 
         public async Task<Product> UpdateProductAsync(Product entity)
         {
-            if (entity.ProductId <= 0) return null;
+            if (entity.Id <= 0) return null;
             //var prod=_repository.GetByIdAsync(entity.ProductId);
             //   if (prod == null) return null;
             //Product product = new Product()
             //{
-            //    ProductId = entity.ProductId,
-            //    ProductName = entity.ProductName,
+            //    Id = entity.Id,
+            //    Name = entity.Name,
             //    ProductDescription = entity.ProductDescription,
             //    ProductCategoryId = entity.ProductCategoryId,
             //    ModifiedDate = entity.ModifiedDate,
+            //    CreatedDate=entity.CreatedDate
             //};
 
             await _repository.UpdateAsync(entity);

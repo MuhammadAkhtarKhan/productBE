@@ -14,7 +14,7 @@ namespace ServicesLayer.ProductService
         Task<IEnumerable<Product>> GetAllAsync();
         Task<Product> GetByIdAsync(int Id);
         Task<Product> DeleteAsync(int Id);
-        Task InsertProductAsync(ProductDTO entity);
+        Task <Product> InsertProductAsync(ProductDTO entity);
         Task <Product> UpdateProductAsync(Product entity);
  
     }
